@@ -1,14 +1,21 @@
 <div class="example-container">
   <form class="example-form">
     <label>Escolha sua categoria de filme</label>
-    <input matInput placeholder="Ex. Ação, Romance..."
-           name="categoria"
-           [(ngModel)]="categoriaSelecionada"
-           (ngModelChange)="atualizarCategoriaSelecionada($event)">
+    <select matNativeControl
+            name="categoria"
+            [(ngModel)]="categoriaSelecionada"
+            (ngModelChange)="atualizarCategoriaSelecionada($event)">
+      <option value="">Selecione uma categoria</option>
+      <option *ngFor="let categoria of categorias" [value]="categoria">
+        {{categoria}}
+      </option>
+    </select>
   </form>
   <ul>
-    <li *ngFor="let filme of filmesFiltrados">
-      {{filme.titulo}} ({{filme.categoria}})
+    <li *ngFor="let filme of filmesFiltrados" class="filme-item">
+      <div class="filme-info">
+        {{filme.titulo}} ({{filme.categoria}})
+      </div>
       <img [src]="filme.urlImagem" alt="{{filme.titulo}}">
     </li>
   </ul>
