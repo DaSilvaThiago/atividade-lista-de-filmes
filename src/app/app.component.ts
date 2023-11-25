@@ -16,38 +16,38 @@ export class AppComponent {
   categorias: string[] = ['Ação', 'Romance', 'Comédia', 'Drama', 'Ficção Científica'];
 
   listaDeFilmes = [
-    {categoria: 'Ação', titulo: 'Rambo',urlImagem:''},
-    {categoria: 'Romance', titulo: 'Titanic',urlImagem:''},
-    {categoria: 'Ação', titulo: 'Matrix', urlImagem: 'URL_DA_IMAGEM'},
-    {categoria: 'Ação', titulo: 'Duro de Matar', urlImagem: 'URL_DA_IMAGEM'},
-    {categoria: 'Ação', titulo: 'Vingadores: Ultimato', urlImagem: 'URL_DA_IMAGEM'},
-    {categoria: 'Ação', titulo: 'Mad Max: Estrada da Fúria', urlImagem: 'URL_DA_IMAGEM'},
-    {categoria: 'Ação', titulo: 'Velozes e Furiosos', urlImagem: 'URL_DA_IMAGEM'},
+    {categoria: 'Ação', titulo: 'Rambo'},
+    {categoria: 'Romance', titulo: 'Titanic'},
+    {categoria: 'Ação', titulo: 'Matrix'},
+    {categoria: 'Ação', titulo: 'Duro de Matar'},
+    {categoria: 'Ação', titulo: 'Vingadores: Ultimato'},
+    {categoria: 'Ação', titulo: 'Mad Max: Estrada da Fúria'},
+    {categoria: 'Ação', titulo: 'Velozes e Furiosos'},
 
-    {categoria: 'Romance', titulo: 'Orgulho e Preconceito', urlImagem: 'URL_DA_IMAGEM'},
-    {categoria: 'Romance', titulo: 'A Culpa é das Estrelas', urlImagem: 'URL_DA_IMAGEM'},
-    {categoria: 'Romance', titulo: 'Cidade dos Anjos', urlImagem: 'URL_DA_IMAGEM'},
-    {categoria: 'Romance', titulo: 'Diário de uma Paixão', urlImagem: 'URL_DA_IMAGEM'},
-    {categoria: 'Romance', titulo: 'La La Land', urlImagem: 'URL_DA_IMAGEM'},
+    {categoria: 'Romance', titulo: 'Orgulho e Preconceito'},
+    {categoria: 'Romance', titulo: 'A Culpa é das Estrelas'},
+    {categoria: 'Romance', titulo: 'Cidade dos Anjos'},
+    {categoria: 'Romance', titulo: 'Diário de uma Paixão'},
+    {categoria: 'Romance', titulo: 'La La Land'},
 
-    {categoria: 'Comédia', titulo: 'Se Beber, Não Case', urlImagem: 'URL_DA_IMAGEM'},
-    {categoria: 'Comédia', titulo: 'Superbad', urlImagem: 'URL_DA_IMAGEM'},
-    {categoria: 'Comédia', titulo: 'Esqueceram de Mim', urlImagem: 'URL_DA_IMAGEM'},
-    {categoria: 'Comédia', titulo: 'As Branquelas', urlImagem: 'URL_DA_IMAGEM'},
-    {categoria: 'Comédia', titulo: 'Ace Ventura: Pet Detective', urlImagem: 'URL_DA_IMAGEM'},
+    {categoria: 'Comédia', titulo: 'Se Beber, Não Case'},
+    {categoria: 'Comédia', titulo: 'Superbad'},
+    {categoria: 'Comédia', titulo: 'Esqueceram de Mim'},
+    {categoria: 'Comédia', titulo: 'As Branquelas'},
+    {categoria: 'Comédia', titulo: 'Ace Ventura: Pet Detective'},
 
-    {categoria: 'Drama', titulo: 'O Resgate do Soldado Ryan', urlImagem: 'URL_DA_IMAGEM'},
-    {categoria: 'Drama', titulo: 'Clube da Luta', urlImagem: 'URL_DA_IMAGEM'},
-    {categoria: 'Drama', titulo: 'Forrest Gump', urlImagem: 'URL_DA_IMAGEM'},
-    {categoria: 'Drama', titulo: 'A Lista de Schindler', urlImagem: 'URL_DA_IMAGEM'},
-    {categoria: 'Drama', titulo: 'O Pianista', urlImagem: 'URL_DA_IMAGEM'},
+    {categoria: 'Drama', titulo: 'O Resgate do Soldado Ryan'},
+    {categoria: 'Drama', titulo: 'Clube da Luta'},
+    {categoria: 'Drama', titulo: 'Forrest Gump'},
+    {categoria: 'Drama', titulo: 'A Lista de Schindler'},
+    {categoria: 'Drama', titulo: 'O Pianista'},
 
 
-    {categoria: 'Ficção Científica', titulo: 'Blade Runner', urlImagem: 'URL_DA_IMAGEM'},
-    {categoria: 'Ficção Científica', titulo: 'Interstellar', urlImagem: 'URL_DA_IMAGEM'},
-    {categoria: 'Ficção Científica', titulo: 'O Quinto Elemento', urlImagem: 'URL_DA_IMAGEM'},
-    {categoria: 'Ficção Científica', titulo: 'De Volta para o Futuro', urlImagem: 'URL_DA_IMAGEM'},
-    {categoria: 'Ficção Científica', titulo: 'Matrix Reloaded', urlImagem: 'URL_DA_IMAGEM'}
+    {categoria: 'Ficção Científica', titulo: 'Blade Runner'},
+    {categoria: 'Ficção Científica', titulo: 'Interstellar'},
+    {categoria: 'Ficção Científica', titulo: 'O Quinto Elemento'},
+    {categoria: 'Ficção Científica', titulo: 'De Volta para o Futuro'},
+    {categoria: 'Ficção Científica', titulo: 'Matrix Reloaded'}
 
   ];
 
